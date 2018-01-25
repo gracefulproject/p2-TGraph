@@ -1,0 +1,8 @@
+#!/bin/bash
+#MACHINE_IP=192.168.240.1
+ybug $1 << EOF
+app_stop 16
+app_stop 17
+app_stop 255
+EOF
+

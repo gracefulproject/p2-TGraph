@@ -1,0 +1,103 @@
+digraph {
+  splines=true;
+
+node [margin=0 fontname=arial fontcolor=black fontsize=12 shape=circle width=0.5 fixedsize=true style=filled fillcolor=powderblue]
+
+  1 [label="P1"]
+  2 [label="P2"]
+  3 [label="P3"]
+  4 [label="P4"]
+  5 [label="P5"]
+  6 [label="P6"]
+  7 [label="P7"]
+  8 [label="P8"]
+  9 [label="P9"]
+  10 [label="P10"]
+  11 [label="P11"]
+  12 [label="P12"]
+  13 [label="P13"]
+  14 [label="P14"]
+  15 [label="P15"]
+  16 [label="P16"]
+  17 [label="P17"]
+  18 [label="P18"]
+  19 [label="P19"]
+  20 [label="P20"]
+  21 [label="P21"]
+  22 [label="P22"]
+  23 [label="P23"]
+  24 [label="P24"]
+  25 [label="P25"]
+rankdir=LR
+
+edge [margin=0 fontname=arial fontcolor=black fontsize=12]
+
+	1 -> 2 [label="1"]
+	1 -> 3 [label="1"]
+	1 -> 7 [label="1"]
+	1 -> 5 [label="1"]
+	2 -> 10 [label="1"]
+	3 -> 4 [label="1"]
+	3 -> 7 [label="1"]
+	4 -> 10 [label="1"]
+	4 -> 6 [label="1"]
+	4 -> 7 [label="1"]
+	4 -> 5 [label="1"]
+	5 -> 9 [label="1"]
+	6 -> 12 [label="1"]
+	6 -> 8 [label="1"]
+	6 -> 7 [label="1"]
+	6 -> 11 [label="1"]
+	7 -> 9 [label="1"]
+	7 -> 14 [label="1"]
+	8 -> 10 [label="1"]
+	8 -> 16 [label="1"]
+	9 -> 12 [label="1"]
+	9 -> 13 [label="1"]
+	9 -> 11 [label="1"]
+	10 -> 13 [label="1"]
+	10 -> 15 [label="1"]
+	11 -> 16 [label="1"]
+	11 -> 17 [label="1"]
+	12 -> 20 [label="1"]
+	13 -> 18 [label="1"]
+	13 -> 15 [label="1"]
+	13 -> 14 [label="1"]
+	15 -> 18 [label="1"]
+	15 -> 23 [label="1"]
+	15 -> 22 [label="1"]
+	14 -> 23 [label="1"]
+	14 -> 22 [label="1"]
+	14 -> 17 [label="1"]
+	16 -> 24 [label="1"]
+	18 -> 20 [label="1"]
+	18 -> 24 [label="1"]
+	17 -> 22 [label="1"]
+	17 -> 19 [label="1"]
+	17 -> 21 [label="1"]
+	17 -> 24 [label="1"]
+	20 -> 23 [label="1"]
+	19 -> 24 [label="1"]
+	21 -> 22 [label="1"]
+	21 -> 25 [label="1"]
+	22 -> 23 [label="1"]
+	22 -> 25 [label="1"]
+	22 -> 24 [label="1"]
+	23 -> 25 [label="1"]
+	24 -> 25 [label="1"]
+	{rank=same  1 }
+	{rank=same  2, 3 }
+	{rank=same  4 }
+	{rank=same  5, 6 }
+	{rank=same  7, 8 }
+	{rank=same  9, 10 }
+	{rank=same  11, 12, 13 }
+	{rank=same  14, 15, 16 }
+	{rank=same  17, 18 }
+	{rank=same  19, 20, 21 }
+	{rank=same  22 }
+	{rank=same  23, 24 }
+	{rank=same 25 }
+
+} 
+

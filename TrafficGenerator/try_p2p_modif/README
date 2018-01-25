@@ -1,0 +1,3 @@
+In this example, let's try to modify p2p table so that it
+uses only 4 links (east, north, west, south) instead of
+the original 6 links.

@@ -1,0 +1,44 @@
+#!/bin/bash
+# Use this script if you don't want to manually edit graph_gen.m
+# This script uses gen_graph.m, a slightly modified version of graph_gen.m
+echo -n "uom_graphs will be erased! Continue (Y/n)? [Y]"
+read askQ
+cntnue=${askQ^^}
+if [ "$cntnue" == "N" ]; then
+        exit 1
+fi
+#rm -rf uom_graphs
+echo -n "Number of nodes: "
+read nodes
+if [ "$nodes" == "" ]; then
+	echo "Exit..."
+	exit 1
+fi
+echo -n "Number of graph(s): [1]"
+read N
+if [ "$N" == "" ]; then
+	N=1
+fi
+echo -n "Maximum load: [10]"
+read maxLoad
+if [ "$maxLoad" == "" ]; then
+	maxLoad=10
+fi
+echo "Generating graph(s)..."
+octave --eval "gen_graph($nodes,$N)"
+cp -rf uom_graphs Archive
+cp -rf uom_graphs Traffic
+python graphGeneratorXML.py &> /dev/null
+cp -rf Traffic uom_graphs
+echo -n "Do you want to clean folders (Y/n)? [Y]"
+read askQ
+cleanup=${askQ^^}
+if [ "$cleanup" == "Y" ]; then
+  rm -rf uom_graphs/*.eps uom_graphs/*.gv uom_graphs/*.h uom_graphs/*.data
+  rm -rf Archive
+  rm -rf Traffic
+  echo "done! Look the result(s) in the uom_graphs folder!"
+else
+  echo "done!"
+fi
+

@@ -1,0 +1,32 @@
+digraph {
+  splines=true;
+node [margin=0 fontname=arial fontcolor=black fontsize=12 shape=circle width=0.5 fixedsize=true style=filled fillcolor=powderblue]
+  1 [label="P1"]
+  2 [label="P2"]
+  3 [label="P3"]
+  4 [label="P4"]
+  5 [label="P5"]
+  6 [label="P6"]
+  7 [label="P7"]
+  8 [label="P8"]
+  9 [label="P9"]
+rankdir=LR
+edge [margin=0 fontname=arial fontcolor=black fontsize=12]
+	1 -> 3 [label="2"]
+	2 -> 3 [label="9"]
+	3 -> 4 [label="2"]
+	3 -> 5 [label="9"]
+	4 -> 6 [label="7"]
+	5 -> 6 [label="5"]
+	6 -> 7 [label="6"]
+	7 -> 8 [label="9"]
+	8 -> 9 [label="9"]
+	{rank=same  1, 2 }
+	{rank=same  3 }
+	{rank=same  4, 5 }
+	{rank=same  6 }
+	{rank=same  7 }
+	{rank=same  8 }
+	{rank=same  9 }
+} 
+

@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ $1="" ]; then
+    IP=10.2.225.9
+else
+    IP=$1
+fi
+echo "Running ybug on" $IP
+ybug $IP  << EOF
+@ try_p2p_modif.ybug
+EOF

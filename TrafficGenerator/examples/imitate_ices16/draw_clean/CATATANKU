@@ -1,0 +1,35 @@
+Sepertinya harus dimulai dulu dengan eksekusi graph_gen.m
+Kemudian dilanjutkan dengan graphGeneratorXML.py
+
+Directory graphs harus disiapkan supaya waktu eksekusi graph_gen.m tidak muncul error. 
+Nanti, directory graphs ini di copy ke dalam directory Archive dan Traffic. 
+Directory Archive dan Traffic dibutuhkan oleh graphGeneratorXML.py
+
+Note: Hasil akhir ada di folder Traffic.
+
+Sepertinya graph_gen.m akan menghasilkan file XML dengan format belum final, sedangkan
+graphGeneratorXML.py akan menghasilkan file XML dengan format final. Kedua program
+tersebut sama-sama menghasilkan pdf dan isinya sedikit beda!
+
+AGAIN: Waktu eksekusi graph_gen.m, directory graphs harus disiapkan dulu. Jika directory ini 
+kagak ada, graph_gen.m akan error. Setelah itu, directory graphs di copy ke dalam 
+directory Archive dan Traffic. Directory Archive dan Traffic dibutuhkan oleh
+graphGeneratorXML.py
+
+Hasil akhir ada di folder Traffic.
+
+-------------------------------
+Note:
+
+Konten awal dari folder ini adalah:
+-rw------- 1 indi indi   645 Nov 28 16:25 CATATANKU
+-rw------- 1 indi indi 20790 Nov 28 16:25 graphGeneratorXML.py
+-rw------- 1 indi indi  5199 Nov 28 16:25 graph_gen.m
+-rw------- 1 indi indi   109 Nov 28 16:25 limitednorm.m
+-rw------- 1 indi indi    91 Nov 28 16:25 onesidenorm.m
+-rw------- 1 indi indi 23093 Nov 28 16:25 staticVisualiser.py
+
+Selain itu bisa dihapus!
+
+Makanya aku bikin script run untuk menjalankan program ini.
+

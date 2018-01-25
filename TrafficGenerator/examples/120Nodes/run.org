@@ -1,0 +1,3 @@
+#!/bin/bash
+./lihat_org > hasil.org
+

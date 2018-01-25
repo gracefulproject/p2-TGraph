@@ -1,0 +1,24 @@
+Using 1-minutes data:
+map_srt
+Have been running for 119626 simulation!
+Have been receiving 88 output packets!
+
+map_org
+Have been running for 119639 simulation!
+Have been receiving 64 output packets!
+
+=============
+
+Using 2-minutes data:
+map_srt
+Have been running for 239210 simulation!
+Have been receiving 304 output packets!
+
+map_org
+Have been running for 239254 simulation!
+Have been receiving 104 output packets!
+
+map_coba
+Have been running for 239210 simulation!
+Have been receiving 192 output packets!
+

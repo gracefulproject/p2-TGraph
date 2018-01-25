@@ -1,0 +1,6 @@
+# make
+# tubotron &
+
+app_load try_p2p_modif.aplx all 1 16
+sleep 2
+app_stop 16

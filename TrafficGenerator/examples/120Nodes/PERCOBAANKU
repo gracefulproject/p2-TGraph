@@ -1,0 +1,18 @@
+Pertama, bikin tgmap pakai gen_tgmap. Akan ada 2 file yang dihasilkan:
+- org berarti menggunakan list yang dihasilkan oleh MachineController
+- srt berarti diurutkan
+org menggambarkan hasil optimisasi, sedangkan srt menggambarkan kasus mapping terburuk 
+Kemudian jalankan 120nodes.xml beserta dengan map_org.tgmap dan map_srt.tgmap, simpan
+rangkuman hasilnya di result.
+Ketika menjalankan map_org.tgmap, jangan lupa jalankan run.org untuk mendapatkan
+data buat visualisasi map-nya. Demikian juga ketika selesai dengan map_srt.tgmap, jalankan
+run.srt untuk mendapatkan data buat visualisasi map-nya.
+Note: aku coba simulasi 5 menit hasil org dan srt sama-sama 8 packets. Ini aku coba dengan 15 menit dan lihat hasilnya.
+
+---------------------------------------------------------------------
+
+Aku temukan masalah seperti ini:
+tidak muncul informasi Node-nn at<x,y> builds the nodemap
+
+Apa karena aplx baru didisain untuk 48 chip sehingga tidak mengakomodir 120 node?
+

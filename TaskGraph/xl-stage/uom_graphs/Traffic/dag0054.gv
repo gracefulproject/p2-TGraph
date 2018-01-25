@@ -1,0 +1,41 @@
+digraph {
+  splines=true;
+node [margin=0 fontname=arial fontcolor=black fontsize=12 shape=circle width=0.5 fixedsize=true style=filled fillcolor=powderblue]
+  1 [label="P0"]
+  2 [label="P1"]
+  3 [label="P2"]
+  4 [label="P3"]
+  5 [label="P4"]
+  6 [label="P5"]
+  7 [label="P6"]
+  8 [label="P7"]
+  9 [label="P8"]
+  node [margin=0 fontname=arial fontcolor=black fontsize=10 shape=circle width=0.5 fixedsize=true style=filled fillcolor=forestgreen]
+  10 [label="Source"]
+  node [margin=0 fontname=arial fontcolor=black fontsize=12 shape=circle width=0.5 fixedsize=true style=filled fillcolor=darksalmon]
+  11 [label="Sink"]
+rankdir=LR
+edge [margin=0 fontname=arial fontcolor=black fontsize=12]
+   1 -> 2 [label="0.571"]
+   2 -> 3 [label="0.381"]
+   3 -> 4 [label="1.14"]
+   4 -> 5 [label="1.71"]
+   4 -> 6 [label="0.286"]
+   4 -> 7 [label="1.14"]
+   5 -> 8 [label="0.857"]
+   6 -> 8 [label="0.214"]
+   7 -> 8 [label="1.14"]
+   8 -> 9 [label="0.286"]
+   10 -> 1 [label="1.0"]
+   9 -> 11 [label="0.857"]
+
+  {rank=same 10}
+	{rank=same  1 }
+	{rank=same  2 }
+	{rank=same  3 }
+	{rank=same  4 }
+	{rank=same  5, 6, 7 }
+	{rank=same  8 }
+	{rank=same  9 }
+  {rank=same 11}
+}

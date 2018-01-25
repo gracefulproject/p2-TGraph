@@ -1,0 +1,6807 @@
+CRC32 Enabled!
+# ybug - version 3.0.1
+10.2.225.97:0,0,0 > sp 0 1
+10.2.225.97:0,1,0 > iobuf 1
+Chip<0,1> receives TGPKT_PING from port-7
+Node-0 on <0,1>
+
+==================================================
+My TGnodeID = 0
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 1
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 65535
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-0
+-------------------
+For target-1:
+	Received packets from node-65535 = 59806 out of 1
+	Total generated packets = 59806
+10.2.225.97:0,1,0 > sp 0 2
+10.2.225.97:0,2,0 > iobuf 1
+Chip<0,2> receives TGPKT_PING from port-7
+Node-1 on <0,2>
+
+==================================================
+My TGnodeID = 1
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 2
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 0
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 1
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 2
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 0
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 3
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 0
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-1
+-------------------
+For target-2:
+	Received packets from node-0 = 0 out of 1
+	Total generated packets = 0
+For target-3:
+	Received packets from node-0 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:0,2,0 > sp 0 3
+10.2.225.97:0,3,0 > iobuf 1
+Chip<0,3> receives TGPKT_PING from port-7
+Node-2 on <0,3>
+
+==================================================
+My TGnodeID = 2
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 4
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 1
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 2
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 4
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 1
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 5
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 1
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-2
+-------------------
+For target-4:
+	Received packets from node-1 = 0 out of 1
+	Total generated packets = 0
+For target-5:
+	Received packets from node-1 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:0,3,0 > sp 1 0
+10.2.225.97:1,0,0 > iobuf 1
+Chip<1,0> receives TGPKT_PING from port-7
+Node-3 on <1,0>
+
+==================================================
+My TGnodeID = 3
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 6
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 1
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-3
+-------------------
+For target-6:
+	Received packets from node-1 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:1,0,0 > sp 1 1
+10.2.225.97:1,1,0 > iobuf 1
+Chip<1,1> receives TGPKT_PING from port-7
+Node-4 on <1,1>
+
+==================================================
+My TGnodeID = 4
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 8
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 2
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-4
+-------------------
+For target-8:
+	Received packets from node-2 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:1,1,0 > sp 1 2
+10.2.225.97:1,2,0 > iobuf 1
+Chip<1,2> receives TGPKT_PING from port-7
+Node-5 on <1,2>
+
+==================================================
+My TGnodeID = 5
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 7
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 2
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 5
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 7
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 2
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 9
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 2
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-5
+-------------------
+For target-7:
+	Received packets from node-2 = 0 out of 1
+	Total generated packets = 0
+For target-9:
+	Received packets from node-2 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:1,2,0 > sp 1 3
+10.2.225.97:1,3,0 > iobuf 1
+Chip<1,3> receives TGPKT_PING from port-7
+Node-6 on <1,3>
+
+==================================================
+My TGnodeID = 6
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 7
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 3
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-6
+-------------------
+For target-7:
+	Received packets from node-3 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:1,3,0 > sp 1 4
+10.2.225.97:1,4,0 > iobuf 1
+Chip<1,4> receives TGPKT_PING from port-7
+Node-7 on <1,4>
+
+==================================================
+My TGnodeID = 7
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 10
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 5
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 7
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 10
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 5
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 11
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 5
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 6
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+============================================
+
+====================
+Report on node-7
+-------------------
+For target-10:
+	Received packets from node-5 = 0 out of 1
+	Total generated packets = 0
+For target-11:
+	Received packets from node-5 = 0 out of 1
+	Received packets from node-6 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:1,4,0 > sp 2 0
+10.2.225.97:2,0,0 > iobuf 1
+Chip<2,0> receives TGPKT_PING from port-7
+Node-8 on <2,0>
+
+==================================================
+My TGnodeID = 8
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 10
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 4
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-8
+-------------------
+For target-10:
+	Received packets from node-4 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,0,0 > sp 2 1
+10.2.225.97:2,1,0 > iobuf 1
+Chip<2,1> receives TGPKT_PING from port-7
+Node-9 on <2,1>
+
+==================================================
+My TGnodeID = 9
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 10
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 5
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-9
+-------------------
+For target-10:
+	Received packets from node-5 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,1,0 > sp 2 2
+10.2.225.97:2,2,0 > iobuf 1
+Chip<2,2> receives TGPKT_PING from port-7
+Node-10 on <2,2>
+
+==================================================
+My TGnodeID = 10
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 12
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 7
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 8
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 9
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-10
+-------------------
+For target-12:
+	Received packets from node-7 = 0 out of 1
+	Received packets from node-8 = 0 out of 1
+	Received packets from node-9 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,2,0 > sp 2 3
+10.2.225.97:2,3,0 > iobuf 1
+Chip<2,3> receives TGPKT_PING from port-7
+Node-11 on <2,3>
+
+==================================================
+My TGnodeID = 11
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 12
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 7
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-11
+-------------------
+For target-12:
+	Received packets from node-7 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,3,0 > sp 2 4
+10.2.225.97:2,4,0 > iobuf 1
+Chip<2,4> receives TGPKT_PING from port-7
+Node-12 on <2,4>
+
+==================================================
+My TGnodeID = 12
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 13
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 10
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 12
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 13
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 10
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 14
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 11
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 12
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 13
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 10
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 14
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 11
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 15
+Target payload: 1
+Number of dependant: 2
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 10
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+	Dependant index-1
+	Dependant node ID: 11
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402704
+
+
+============================================
+
+====================
+Report on node-12
+-------------------
+For target-13:
+	Received packets from node-10 = 0 out of 1
+	Total generated packets = 0
+For target-14:
+	Received packets from node-11 = 0 out of 1
+	Total generated packets = 0
+For target-15:
+	Received packets from node-10 = 0 out of 1
+	Received packets from node-11 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,4,0 > sp 2 5
+10.2.225.97:2,5,0 > iobuf 1
+Chip<2,5> receives TGPKT_PING from port-7
+Node-13 on <2,5>
+
+==================================================
+My TGnodeID = 13
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 16
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 13
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 16
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 17
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 13
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 16
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 17
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 18
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-13
+-------------------
+For target-16:
+	Received packets from node-12 = 0 out of 1
+	Total generated packets = 0
+For target-17:
+	Received packets from node-12 = 0 out of 1
+	Total generated packets = 0
+For target-18:
+	Received packets from node-12 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:2,5,0 > sp 3 0
+10.2.225.97:3,0,0 > iobuf 1
+Chip<3,0> receives TGPKT_PING from port-7
+Node-14 on <3,0>
+
+==================================================
+My TGnodeID = 14
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 19
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-14
+-------------------
+For target-19:
+	Received packets from node-12 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,0,0 > sp 3 1
+10.2.225.97:3,1,0 > iobuf 1
+Chip<3,1> receives TGPKT_PING from port-7
+Node-15 on <3,1>
+
+==================================================
+My TGnodeID = 15
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 19
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 12
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-15
+-------------------
+For target-19:
+	Received packets from node-12 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,1,0 > sp 3 2
+10.2.225.97:3,2,0 > iobuf 1
+Chip<3,2> receives TGPKT_PING from port-7
+Node-16 on <3,2>
+
+==================================================
+My TGnodeID = 16
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 21
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 16
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 21
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 22
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 16
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 21
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 22
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 23
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-16
+-------------------
+For target-21:
+	Received packets from node-13 = 0 out of 1
+	Total generated packets = 0
+For target-22:
+	Received packets from node-13 = 0 out of 1
+	Total generated packets = 0
+For target-23:
+	Received packets from node-13 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,2,0 > sp 3 3
+10.2.225.97:3,3,0 > iobuf 1
+Chip<3,3> receives TGPKT_PING from port-7
+Node-17 on <3,3>
+
+==================================================
+My TGnodeID = 17
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 21
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-17
+-------------------
+For target-21:
+	Received packets from node-13 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,3,0 > sp 3 4
+10.2.225.97:3,4,0 > iobuf 1
+Chip<3,4> receives TGPKT_PING from port-7
+Node-18 on <3,4>
+
+==================================================
+My TGnodeID = 18
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 25
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 13
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-18
+-------------------
+For target-25:
+	Received packets from node-13 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,4,0 > sp 3 5
+10.2.225.97:3,5,0 > iobuf 1
+Chip<3,5> receives TGPKT_PING from port-7
+Node-19 on <3,5>
+
+==================================================
+My TGnodeID = 19
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 20
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 14
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 15
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-19
+-------------------
+For target-20:
+	Received packets from node-14 = 0 out of 1
+	Received packets from node-15 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,5,0 > sp 3 6
+10.2.225.97:3,6,0 > iobuf 1
+Chip<3,6> receives TGPKT_PING from port-7
+Node-20 on <3,6>
+
+==================================================
+My TGnodeID = 20
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 20
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 26
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 20
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 26
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 27
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+==================================================
+My TGnodeID = 20
+-----------------------------------
+Number of output targets = 4
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 26
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 27
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 28
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 19
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+============================================
+
+====================
+Report on node-20
+-------------------
+For target-24:
+	Received packets from node-19 = 0 out of 1
+	Total generated packets = 0
+For target-26:
+	Received packets from node-19 = 0 out of 1
+	Total generated packets = 0
+For target-27:
+	Received packets from node-19 = 0 out of 1
+	Total generated packets = 0
+For target-28:
+	Received packets from node-19 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:3,6,0 > sp 4 0
+10.2.225.97:4,0,0 > iobuf 1
+Chip<4,0> receives TGPKT_PING from port-7
+Node-21 on <4,0>
+
+==================================================
+My TGnodeID = 21
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 16
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 17
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-21
+-------------------
+For target-24:
+	Received packets from node-16 = 0 out of 1
+	Received packets from node-17 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,0,0 > sp 4 1
+10.2.225.97:4,1,0 > iobuf 1
+Chip<4,1> receives TGPKT_PING from port-7
+Node-22 on <4,1>
+
+==================================================
+My TGnodeID = 22
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 24
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 16
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-22
+-------------------
+For target-24:
+	Received packets from node-16 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,1,0 > sp 4 2
+10.2.225.97:4,2,0 > iobuf 1
+Chip<4,2> receives TGPKT_PING from port-7
+Node-23 on <4,2>
+
+==================================================
+My TGnodeID = 23
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 29
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 16
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-23
+-------------------
+For target-29:
+	Received packets from node-16 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,2,0 > sp 4 3
+10.2.225.97:4,3,0 > iobuf 1
+Chip<4,3> receives TGPKT_PING from port-7
+Node-24 on <4,3>
+
+==================================================
+My TGnodeID = 24
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 30
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 22
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 21
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-24
+-------------------
+For target-30:
+	Received packets from node-20 = 0 out of 1
+	Received packets from node-22 = 0 out of 1
+	Received packets from node-21 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,3,0 > sp 4 4
+10.2.225.97:4,4,0 > iobuf 1
+Chip<4,4> receives TGPKT_PING from port-7
+Node-25 on <4,4>
+
+==================================================
+My TGnodeID = 25
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 32
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 18
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 25
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 32
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 18
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 33
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 18
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-25
+-------------------
+For target-32:
+	Received packets from node-18 = 0 out of 1
+	Total generated packets = 0
+For target-33:
+	Received packets from node-18 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,4,0 > sp 4 5
+10.2.225.97:4,5,0 > iobuf 1
+Chip<4,5> receives TGPKT_PING from port-7
+Node-26 on <4,5>
+
+==================================================
+My TGnodeID = 26
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 30
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-26
+-------------------
+For target-30:
+	Received packets from node-20 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,5,0 > sp 4 6
+10.2.225.97:4,6,0 > iobuf 1
+Chip<4,6> receives TGPKT_PING from port-7
+Node-27 on <4,6>
+
+==================================================
+My TGnodeID = 27
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 32
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 27
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 32
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 34
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-27
+-------------------
+For target-32:
+	Received packets from node-20 = 0 out of 1
+	Total generated packets = 0
+For target-34:
+	Received packets from node-20 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,6,0 > sp 4 7
+10.2.225.97:4,7,0 > iobuf 1
+Chip<4,7> receives TGPKT_PING from port-7
+Node-28 on <4,7>
+
+==================================================
+My TGnodeID = 28
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 31
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 20
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-28
+-------------------
+For target-31:
+	Received packets from node-20 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,7,0 > sp 4 8
+10.2.225.97:4,8,0 > iobuf 1
+Chip<4,8> receives TGPKT_PING from port-7
+Node-29 on <4,8>
+
+==================================================
+My TGnodeID = 29
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 30
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 23
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-29
+-------------------
+For target-30:
+	Received packets from node-23 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,8,0 > sp 4 9
+10.2.225.97:4,9,0 > iobuf 1
+Chip<4,9> receives TGPKT_PING from port-7
+Node-30 on <4,9>
+
+==================================================
+My TGnodeID = 30
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 30
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 37
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 30
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 37
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 38
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 26
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+==================================================
+My TGnodeID = 30
+-----------------------------------
+Number of output targets = 4
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 37
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 29
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 38
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 26
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 39
+Target payload: 1
+Number of dependant: 2
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 24
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+	Dependant index-1
+	Dependant node ID: 26
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x403750
+
+
+============================================
+
+====================
+Report on node-30
+-------------------
+For target-36:
+	Received packets from node-29 = 0 out of 1
+	Total generated packets = 0
+For target-37:
+	Received packets from node-29 = 0 out of 1
+	Total generated packets = 0
+For target-38:
+	Received packets from node-26 = 0 out of 1
+	Total generated packets = 0
+For target-39:
+	Received packets from node-24 = 0 out of 1
+	Received packets from node-26 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,9,0 > sp 4 10
+10.2.225.97:4,10,0 > iobuf 1
+Chip<4,10> receives TGPKT_PING from port-7
+Node-31 on <4,10>
+
+==================================================
+My TGnodeID = 31
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 28
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-31
+-------------------
+For target-36:
+	Received packets from node-28 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,10,0 > sp 4 11
+10.2.225.97:4,11,0 > iobuf 1
+Chip<4,11> receives TGPKT_PING from port-7
+Node-32 on <4,11>
+
+==================================================
+My TGnodeID = 32
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 35
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 27
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 25
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-32
+-------------------
+For target-35:
+	Received packets from node-27 = 0 out of 1
+	Received packets from node-25 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:4,11,0 > sp 5 1
+10.2.225.97:5,1,0 > iobuf 1
+Chip<5,1> receives TGPKT_PING from port-7
+Node-33 on <5,1>
+
+==================================================
+My TGnodeID = 33
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 25
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-33
+-------------------
+For target-43:
+	Received packets from node-25 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,1,0 > sp 5 2
+10.2.225.97:5,2,0 > iobuf 1
+Chip<5,2> receives TGPKT_PING from port-7
+Node-34 on <5,2>
+
+==================================================
+My TGnodeID = 34
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 36
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 27
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-34
+-------------------
+For target-36:
+	Received packets from node-27 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,2,0 > sp 5 3
+10.2.225.97:5,3,0 > iobuf 1
+Chip<5,3> receives TGPKT_PING from port-7
+Node-35 on <5,3>
+
+==================================================
+My TGnodeID = 35
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 40
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 35
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 40
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 42
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 35
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 40
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 42
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 45
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 32
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-35
+-------------------
+For target-40:
+	Received packets from node-32 = 0 out of 1
+	Total generated packets = 0
+For target-42:
+	Received packets from node-32 = 0 out of 1
+	Total generated packets = 0
+For target-45:
+	Received packets from node-32 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,3,0 > sp 5 4
+10.2.225.97:5,4,0 > iobuf 1
+Chip<5,4> receives TGPKT_PING from port-7
+Node-36 on <5,4>
+
+==================================================
+My TGnodeID = 36
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 41
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 34
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+==================================================
+My TGnodeID = 36
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 41
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 34
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+Output target/links index-1:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+============================================
+
+==================================================
+My TGnodeID = 36
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 41
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 34
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+Output target/links index-1:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+Output target/links index-2:
+Target node ID: 46
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+==================================================
+My TGnodeID = 36
+-----------------------------------
+Number of output targets = 4
+
+Output target/links index-0:
+Target node ID: 41
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 34
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+Output target/links index-1:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+Output target/links index-2:
+Target node ID: 46
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 47
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 31
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+============================================
+
+====================
+Report on node-36
+-------------------
+For target-41:
+	Received packets from node-30 = 0 out of 1
+	Received packets from node-34 = 0 out of 1
+	Total generated packets = 0
+For target-43:
+	Received packets from node-30 = 0 out of 1
+	Received packets from node-31 = 0 out of 1
+	Total generated packets = 0
+For target-46:
+	Received packets from node-31 = 0 out of 1
+	Total generated packets = 0
+For target-47:
+	Received packets from node-31 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,4,0 > sp 5 5
+10.2.225.97:5,5,0 > iobuf 1
+Chip<5,5> receives TGPKT_PING from port-7
+Node-37 on <5,5>
+
+==================================================
+My TGnodeID = 37
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 40
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-37
+-------------------
+For target-40:
+	Received packets from node-30 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,5,0 > sp 5 6
+10.2.225.97:5,6,0 > iobuf 1
+Chip<5,6> receives TGPKT_PING from port-7
+Node-38 on <5,6>
+
+==================================================
+My TGnodeID = 38
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 38
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 44
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-38
+-------------------
+For target-43:
+	Received packets from node-30 = 0 out of 1
+	Total generated packets = 0
+For target-44:
+	Received packets from node-30 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,6,0 > sp 5 7
+10.2.225.97:5,7,0 > iobuf 1
+Chip<5,7> receives TGPKT_PING from port-7
+Node-39 on <5,7>
+
+==================================================
+My TGnodeID = 39
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 43
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 30
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-39
+-------------------
+For target-43:
+	Received packets from node-30 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,7,0 > sp 5 8
+10.2.225.97:5,8,0 > iobuf 1
+Chip<5,8> receives TGPKT_PING from port-7
+Node-40 on <5,8>
+
+==================================================
+My TGnodeID = 40
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 37
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 40
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 37
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 51
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 35
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 37
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+============================================
+
+==================================================
+My TGnodeID = 40
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 37
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 51
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 35
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 37
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+Output target/links index-2:
+Target node ID: 52
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 35
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-40
+-------------------
+For target-49:
+	Received packets from node-37 = 0 out of 1
+	Total generated packets = 0
+For target-51:
+	Received packets from node-35 = 0 out of 1
+	Received packets from node-37 = 0 out of 1
+	Total generated packets = 0
+For target-52:
+	Received packets from node-35 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,8,0 > sp 5 9
+10.2.225.97:5,9,0 > iobuf 1
+Chip<5,9> receives TGPKT_PING from port-7
+Node-41 on <5,9>
+
+==================================================
+My TGnodeID = 41
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-41
+-------------------
+For target-49:
+	Received packets from node-36 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,9,0 > sp 5 10
+10.2.225.97:5,10,0 > iobuf 1
+Chip<5,10> receives TGPKT_PING from port-7
+Node-42 on <5,10>
+
+==================================================
+My TGnodeID = 42
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 35
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-42
+-------------------
+For target-49:
+	Received packets from node-35 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,10,0 > sp 5 11
+10.2.225.97:5,11,0 > iobuf 1
+Chip<5,11> receives TGPKT_PING from port-7
+Node-43 on <5,11>
+
+==================================================
+My TGnodeID = 43
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 49
+Target payload: 1
+Number of dependant: 4
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 38
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 33
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 39
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+
+============================================
+
+====================
+Report on node-43
+-------------------
+For target-49:
+	Received packets from node-38 = 0 out of 1
+	Received packets from node-33 = 0 out of 1
+	Received packets from node-36 = 0 out of 1
+	Received packets from node-39 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,11,0 > sp 5 12
+10.2.225.97:5,12,0 > iobuf 1
+Chip<5,12> receives TGPKT_PING from port-7
+Node-44 on <5,12>
+
+==================================================
+My TGnodeID = 44
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 53
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 38
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-44
+-------------------
+For target-53:
+	Received packets from node-38 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:5,12,0 > sp 6 2
+10.2.225.97:6,2,0 > iobuf 1
+Chip<6,2> receives TGPKT_PING from port-7
+Node-45 on <6,2>
+
+==================================================
+My TGnodeID = 45
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 48
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 35
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-45
+-------------------
+For target-48:
+	Received packets from node-35 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,2,0 > sp 6 3
+10.2.225.97:6,3,0 > iobuf 1
+Chip<6,3> receives TGPKT_PING from port-7
+Node-46 on <6,3>
+
+==================================================
+My TGnodeID = 46
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 50
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-46
+-------------------
+For target-50:
+	Received packets from node-36 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,3,0 > sp 6 4
+10.2.225.97:6,4,0 > iobuf 1
+Chip<6,4> receives TGPKT_PING from port-7
+Node-47 on <6,4>
+
+==================================================
+My TGnodeID = 47
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 47
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 57
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 36
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-47
+-------------------
+For target-54:
+	Received packets from node-36 = 0 out of 1
+	Total generated packets = 0
+For target-57:
+	Received packets from node-36 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,4,0 > sp 6 5
+10.2.225.97:6,5,0 > iobuf 1
+Chip<6,5> receives TGPKT_PING from port-7
+Node-48 on <6,5>
+
+==================================================
+My TGnodeID = 48
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 45
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-48
+-------------------
+For target-54:
+	Received packets from node-45 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,5,0 > sp 6 6
+10.2.225.97:6,6,0 > iobuf 1
+Chip<6,6> receives TGPKT_PING from port-7
+Node-49 on <6,6>
+
+==================================================
+My TGnodeID = 49
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 4
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 40
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 41
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 42
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 43
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+
+============================================
+
+====================
+Report on node-49
+-------------------
+For target-54:
+	Received packets from node-40 = 0 out of 1
+	Received packets from node-41 = 0 out of 1
+	Received packets from node-42 = 0 out of 1
+	Received packets from node-43 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,6,0 > sp 6 7
+10.2.225.97:6,7,0 > iobuf 1
+Chip<6,7> receives TGPKT_PING from port-7
+Node-50 on <6,7>
+
+==================================================
+My TGnodeID = 50
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 46
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-50
+-------------------
+For target-54:
+	Received packets from node-46 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,7,0 > sp 6 8
+10.2.225.97:6,8,0 > iobuf 1
+Chip<6,8> receives TGPKT_PING from port-7
+Node-51 on <6,8>
+
+==================================================
+My TGnodeID = 51
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 54
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 40
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-51
+-------------------
+For target-54:
+	Received packets from node-40 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,8,0 > sp 6 9
+10.2.225.97:6,9,0 > iobuf 1
+Chip<6,9> receives TGPKT_PING from port-7
+Node-52 on <6,9>
+
+==================================================
+My TGnodeID = 52
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 55
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 40
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-52
+-------------------
+For target-55:
+	Received packets from node-40 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,9,0 > sp 6 10
+10.2.225.97:6,10,0 > iobuf 1
+Chip<6,10> receives TGPKT_PING from port-7
+Node-53 on <6,10>
+
+==================================================
+My TGnodeID = 53
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 56
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 44
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-53
+-------------------
+For target-56:
+	Received packets from node-44 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,10,0 > sp 6 11
+10.2.225.97:6,11,0 > iobuf 1
+Chip<6,11> receives TGPKT_PING from port-7
+Node-54 on <6,11>
+
+==================================================
+My TGnodeID = 54
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 60
+Target payload: 1
+Number of dependant: 4
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 48
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 50
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 51
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+
+============================================
+
+==================================================
+My TGnodeID = 54
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 60
+Target payload: 1
+Number of dependant: 4
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 48
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 50
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 51
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+
+Output target/links index-1:
+Target node ID: 63
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 49
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-54
+-------------------
+For target-60:
+	Received packets from node-48 = 0 out of 1
+	Received packets from node-50 = 0 out of 1
+	Received packets from node-47 = 0 out of 1
+	Received packets from node-51 = 0 out of 1
+	Total generated packets = 0
+For target-63:
+	Received packets from node-49 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,11,0 > sp 6 12
+10.2.225.97:6,12,0 > iobuf 1
+Chip<6,12> receives TGPKT_PING from port-7
+Node-55 on <6,12>
+
+==================================================
+My TGnodeID = 55
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 64
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 52
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-55
+-------------------
+For target-64:
+	Received packets from node-52 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,12,0 > sp 6 13
+10.2.225.97:6,13,0 > iobuf 1
+Chip<6,13> receives TGPKT_PING from port-7
+Node-56 on <6,13>
+
+==================================================
+My TGnodeID = 56
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 58
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 56
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 58
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 65
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 56
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 58
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 65
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 66
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 53
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-56
+-------------------
+For target-58:
+	Received packets from node-53 = 0 out of 1
+	Total generated packets = 0
+For target-65:
+	Received packets from node-53 = 0 out of 1
+	Total generated packets = 0
+For target-66:
+	Received packets from node-53 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:6,13,0 > sp 7 3
+10.2.225.97:7,3,0 > iobuf 1
+Chip<7,3> receives TGPKT_PING from port-7
+Node-57 on <7,3>
+
+==================================================
+My TGnodeID = 57
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 59
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 57
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 59
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 61
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 57
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 59
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 61
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 62
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 47
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-57
+-------------------
+For target-59:
+	Received packets from node-47 = 0 out of 1
+	Total generated packets = 0
+For target-61:
+	Received packets from node-47 = 0 out of 1
+	Total generated packets = 0
+For target-62:
+	Received packets from node-47 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,3,0 > sp 7 4
+10.2.225.97:7,4,0 > iobuf 1
+Chip<7,4> receives TGPKT_PING from port-7
+Node-58 on <7,4>
+
+==================================================
+My TGnodeID = 58
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 56
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-58
+-------------------
+For target-68:
+	Received packets from node-56 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,4,0 > sp 7 5
+10.2.225.97:7,5,0 > iobuf 1
+Chip<7,5> receives TGPKT_PING from port-7
+Node-59 on <7,5>
+
+==================================================
+My TGnodeID = 59
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 57
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-59
+-------------------
+For target-68:
+	Received packets from node-57 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,5,0 > sp 7 6
+10.2.225.97:7,6,0 > iobuf 1
+Chip<7,6> receives TGPKT_PING from port-7
+Node-60 on <7,6>
+
+==================================================
+My TGnodeID = 60
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 54
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-60
+-------------------
+For target-68:
+	Received packets from node-54 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,6,0 > sp 7 7
+10.2.225.97:7,7,0 > iobuf 1
+Chip<7,7> receives TGPKT_PING from port-7
+Node-61 on <7,7>
+
+==================================================
+My TGnodeID = 61
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 57
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-61
+-------------------
+For target-68:
+	Received packets from node-57 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,7,0 > sp 7 8
+10.2.225.97:7,8,0 > iobuf 1
+Chip<7,8> receives TGPKT_PING from port-7
+Node-62 on <7,8>
+
+==================================================
+My TGnodeID = 62
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 67
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 57
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-62
+-------------------
+For target-67:
+	Received packets from node-57 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,8,0 > sp 7 9
+10.2.225.97:7,9,0 > iobuf 1
+Chip<7,9> receives TGPKT_PING from port-7
+Node-63 on <7,9>
+
+==================================================
+My TGnodeID = 63
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 54
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-63
+-------------------
+For target-68:
+	Received packets from node-54 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,9,0 > sp 7 10
+10.2.225.97:7,10,0 > iobuf 1
+Chip<7,10> receives TGPKT_PING from port-7
+Node-64 on <7,10>
+
+==================================================
+My TGnodeID = 64
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 69
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 55
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 64
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 69
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 55
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 70
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 55
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-64
+-------------------
+For target-69:
+	Received packets from node-55 = 0 out of 1
+	Total generated packets = 0
+For target-70:
+	Received packets from node-55 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,10,0 > sp 7 11
+10.2.225.97:7,11,0 > iobuf 1
+Chip<7,11> receives TGPKT_PING from port-7
+Node-65 on <7,11>
+
+==================================================
+My TGnodeID = 65
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 70
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 56
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-65
+-------------------
+For target-70:
+	Received packets from node-56 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,11,0 > sp 7 12
+10.2.225.97:7,12,0 > iobuf 1
+Chip<7,12> receives TGPKT_PING from port-7
+Node-66 on <7,12>
+
+==================================================
+My TGnodeID = 66
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 68
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 56
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-66
+-------------------
+For target-68:
+	Received packets from node-56 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,12,0 > sp 7 13
+10.2.225.97:7,13,0 > iobuf 1
+Chip<7,13> receives TGPKT_PING from port-7
+Node-67 on <7,13>
+
+==================================================
+My TGnodeID = 67
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 71
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 62
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 67
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 71
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 62
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 73
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 62
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-67
+-------------------
+For target-71:
+	Received packets from node-62 = 0 out of 1
+	Total generated packets = 0
+For target-73:
+	Received packets from node-62 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,13,0 > sp 7 14
+10.2.225.97:7,14,0 > iobuf 1
+Chip<7,14> receives TGPKT_PING from port-7
+Node-68 on <7,14>
+
+==================================================
+My TGnodeID = 68
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 71
+Target payload: 1
+Number of dependant: 6
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 58
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 60
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 59
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 61
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+	Dependant index-4
+	Dependant node ID: 63
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400b40
+
+	Dependant index-5
+	Dependant node ID: 66
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400cdc
+
+
+============================================
+
+====================
+Report on node-68
+-------------------
+For target-71:
+	Received packets from node-58 = 0 out of 1
+	Received packets from node-60 = 0 out of 1
+	Received packets from node-59 = 0 out of 1
+	Received packets from node-61 = 0 out of 1
+	Received packets from node-63 = 0 out of 1
+	Received packets from node-66 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:7,14,0 > sp 8 4
+10.2.225.97:8,4,0 > iobuf 1
+Chip<8,4> receives TGPKT_PING from port-7
+Node-69 on <8,4>
+
+==================================================
+My TGnodeID = 69
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 71
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 64
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-69
+-------------------
+For target-71:
+	Received packets from node-64 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,4,0 > sp 8 5
+10.2.225.97:8,5,0 > iobuf 1
+Chip<8,5> receives TGPKT_PING from port-7
+Node-70 on <8,5>
+
+==================================================
+My TGnodeID = 70
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 72
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 64
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 65
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-70
+-------------------
+For target-72:
+	Received packets from node-64 = 0 out of 1
+	Received packets from node-65 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,5,0 > sp 8 6
+10.2.225.97:8,6,0 > iobuf 1
+Chip<8,6> receives TGPKT_PING from port-7
+Node-71 on <8,6>
+
+==================================================
+My TGnodeID = 71
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 75
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 68
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 67
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+==================================================
+My TGnodeID = 71
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 75
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 68
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 67
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+Output target/links index-1:
+Target node ID: 76
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 69
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 71
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 75
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 68
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 67
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+Output target/links index-1:
+Target node ID: 76
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 69
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 77
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 69
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-71
+-------------------
+For target-75:
+	Received packets from node-68 = 0 out of 1
+	Received packets from node-67 = 0 out of 1
+	Total generated packets = 0
+For target-76:
+	Received packets from node-69 = 0 out of 1
+	Total generated packets = 0
+For target-77:
+	Received packets from node-69 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,6,0 > sp 8 7
+10.2.225.97:8,7,0 > iobuf 1
+Chip<8,7> receives TGPKT_PING from port-7
+Node-72 on <8,7>
+
+==================================================
+My TGnodeID = 72
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 83
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 70
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-72
+-------------------
+For target-83:
+	Received packets from node-70 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,7,0 > sp 8 8
+10.2.225.97:8,8,0 > iobuf 1
+Chip<8,8> receives TGPKT_PING from port-7
+Node-73 on <8,8>
+
+==================================================
+My TGnodeID = 73
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 74
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 67
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-73
+-------------------
+For target-74:
+	Received packets from node-67 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,8,0 > sp 8 9
+10.2.225.97:8,9,0 > iobuf 1
+Chip<8,9> receives TGPKT_PING from port-7
+Node-74 on <8,9>
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 4
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 81
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 5
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 81
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+Output target/links index-4:
+Target node ID: 82
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4045cc
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x404600
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 6
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 81
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+Output target/links index-4:
+Target node ID: 82
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4045cc
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x404600
+
+
+Output target/links index-5:
+Target node ID: 84
+Target payload: 1
+Number of dependant: 1
+Data location: 0x405618
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40564c
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 7
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 81
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+Output target/links index-4:
+Target node ID: 82
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4045cc
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x404600
+
+
+Output target/links index-5:
+Target node ID: 84
+Target payload: 1
+Number of dependant: 1
+Data location: 0x405618
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40564c
+
+
+Output target/links index-6:
+Target node ID: 85
+Target payload: 1
+Number of dependant: 1
+Data location: 0x406664
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x406698
+
+
+============================================
+
+==================================================
+My TGnodeID = 74
+-----------------------------------
+Number of output targets = 8
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 79
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 80
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+Output target/links index-3:
+Target node ID: 81
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+Output target/links index-4:
+Target node ID: 82
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4045cc
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x404600
+
+
+Output target/links index-5:
+Target node ID: 84
+Target payload: 1
+Number of dependant: 1
+Data location: 0x405618
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40564c
+
+
+Output target/links index-6:
+Target node ID: 85
+Target payload: 1
+Number of dependant: 1
+Data location: 0x406664
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x406698
+
+
+Output target/links index-7:
+Target node ID: 86
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4076b0
+Dependants:
+	Dependant index-0
+	Dependant node ID: 73
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4076e4
+
+
+============================================
+
+====================
+Report on node-74
+-------------------
+For target-78:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-79:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-80:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-81:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-82:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-84:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-85:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+For target-86:
+	Received packets from node-73 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,9,0 > sp 8 10
+10.2.225.97:8,10,0 > iobuf 1
+Chip<8,10> receives TGPKT_PING from port-7
+Node-75 on <8,10>
+
+==================================================
+My TGnodeID = 75
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 71
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-75
+-------------------
+For target-78:
+	Received packets from node-71 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,10,0 > sp 8 11
+10.2.225.97:8,11,0 > iobuf 1
+Chip<8,11> receives TGPKT_PING from port-7
+Node-76 on <8,11>
+
+==================================================
+My TGnodeID = 76
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 83
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 71
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 76
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 83
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 71
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 87
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 71
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-76
+-------------------
+For target-83:
+	Received packets from node-71 = 0 out of 1
+	Total generated packets = 0
+For target-87:
+	Received packets from node-71 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,11,0 > sp 8 12
+10.2.225.97:8,12,0 > iobuf 1
+Chip<8,12> receives TGPKT_PING from port-7
+Node-77 on <8,12>
+
+==================================================
+My TGnodeID = 77
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 78
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 71
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-77
+-------------------
+For target-78:
+	Received packets from node-71 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,12,0 > sp 8 13
+10.2.225.97:8,13,0 > iobuf 1
+Chip<8,13> receives TGPKT_PING from port-7
+Node-78 on <8,13>
+
+==================================================
+My TGnodeID = 78
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 92
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 75
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 77
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-78
+-------------------
+For target-92:
+	Received packets from node-74 = 0 out of 1
+	Received packets from node-75 = 0 out of 1
+	Received packets from node-77 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,13,0 > sp 8 14
+10.2.225.97:8,14,0 > iobuf 1
+Chip<8,14> receives TGPKT_PING from port-7
+Node-79 on <8,14>
+
+==================================================
+My TGnodeID = 79
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 90
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-79
+-------------------
+For target-90:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,14,0 > sp 8 15
+10.2.225.97:8,15,0 > iobuf 1
+Chip<8,15> receives TGPKT_PING from port-7
+Node-80 on <8,15>
+
+==================================================
+My TGnodeID = 80
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 90
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-80
+-------------------
+For target-90:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:8,15,0 > sp 9 4
+10.2.225.97:9,4,0 > iobuf 1
+Chip<9,4> receives TGPKT_PING from port-7
+Node-81 on <9,4>
+
+==================================================
+My TGnodeID = 81
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 92
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 81
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 92
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 93
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-81
+-------------------
+For target-92:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+For target-93:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,4,0 > sp 9 5
+10.2.225.97:9,5,0 > iobuf 1
+Chip<9,5> receives TGPKT_PING from port-7
+Node-82 on <9,5>
+
+==================================================
+My TGnodeID = 82
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 92
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-82
+-------------------
+For target-92:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,5,0 > sp 9 6
+10.2.225.97:9,6,0 > iobuf 1
+Chip<9,6> receives TGPKT_PING from port-7
+Node-83 on <9,6>
+
+==================================================
+My TGnodeID = 83
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 90
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 72
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 76
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-83
+-------------------
+For target-90:
+	Received packets from node-72 = 0 out of 1
+	Received packets from node-76 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,6,0 > sp 9 7
+10.2.225.97:9,7,0 > iobuf 1
+Chip<9,7> receives TGPKT_PING from port-7
+Node-84 on <9,7>
+
+==================================================
+My TGnodeID = 84
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 90
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-84
+-------------------
+For target-90:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,7,0 > sp 9 8
+10.2.225.97:9,8,0 > iobuf 1
+Chip<9,8> receives TGPKT_PING from port-7
+Node-85 on <9,8>
+
+==================================================
+My TGnodeID = 85
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 88
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-85
+-------------------
+For target-88:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,8,0 > sp 9 9
+10.2.225.97:9,9,0 > iobuf 1
+Chip<9,9> receives TGPKT_PING from port-7
+Node-86 on <9,9>
+
+==================================================
+My TGnodeID = 86
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 91
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 74
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-86
+-------------------
+For target-91:
+	Received packets from node-74 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,9,0 > sp 9 10
+10.2.225.97:9,10,0 > iobuf 1
+Chip<9,10> receives TGPKT_PING from port-7
+Node-87 on <9,10>
+
+==================================================
+My TGnodeID = 87
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 89
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 76
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-87
+-------------------
+For target-89:
+	Received packets from node-76 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,10,0 > sp 9 11
+10.2.225.97:9,11,0 > iobuf 1
+Chip<9,11> receives TGPKT_PING from port-7
+Node-88 on <9,11>
+
+==================================================
+My TGnodeID = 88
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 88
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 95
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 88
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 95
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 96
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 85
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-88
+-------------------
+For target-94:
+	Received packets from node-85 = 0 out of 1
+	Total generated packets = 0
+For target-95:
+	Received packets from node-85 = 0 out of 1
+	Total generated packets = 0
+For target-96:
+	Received packets from node-85 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,11,0 > sp 9 12
+10.2.225.97:9,12,0 > iobuf 1
+Chip<9,12> receives TGPKT_PING from port-7
+Node-89 on <9,12>
+
+==================================================
+My TGnodeID = 89
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 87
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-89
+-------------------
+For target-94:
+	Received packets from node-87 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,12,0 > sp 9 13
+10.2.225.97:9,13,0 > iobuf 1
+Chip<9,13> receives TGPKT_PING from port-7
+Node-90 on <9,13>
+
+==================================================
+My TGnodeID = 90
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 4
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 79
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 80
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 83
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+	Dependant index-3
+	Dependant node ID: 84
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4009a4
+
+
+============================================
+
+====================
+Report on node-90
+-------------------
+For target-94:
+	Received packets from node-79 = 0 out of 1
+	Received packets from node-80 = 0 out of 1
+	Received packets from node-83 = 0 out of 1
+	Received packets from node-84 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,13,0 > sp 9 14
+10.2.225.97:9,14,0 > iobuf 1
+Chip<9,14> receives TGPKT_PING from port-7
+Node-91 on <9,14>
+
+==================================================
+My TGnodeID = 91
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 86
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-91
+-------------------
+For target-94:
+	Received packets from node-86 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,14,0 > sp 9 15
+10.2.225.97:9,15,0 > iobuf 1
+Chip<9,15> receives TGPKT_PING from port-7
+Node-92 on <9,15>
+
+==================================================
+My TGnodeID = 92
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 82
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 78
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 81
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-92
+-------------------
+For target-94:
+	Received packets from node-82 = 0 out of 1
+	Received packets from node-78 = 0 out of 1
+	Received packets from node-81 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:9,15,0 > sp 10 4
+10.2.225.97:10,4,0 > iobuf 1
+Chip<10,4> receives TGPKT_PING from port-7
+Node-93 on <10,4>
+
+==================================================
+My TGnodeID = 93
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 94
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 81
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-93
+-------------------
+For target-94:
+	Received packets from node-81 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,4,0 > sp 10 5
+10.2.225.97:10,5,0 > iobuf 1
+Chip<10,5> receives TGPKT_PING from port-7
+Node-94 on <10,5>
+
+==================================================
+My TGnodeID = 94
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 97
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 88
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 91
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 93
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+==================================================
+My TGnodeID = 94
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 97
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 88
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 91
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 93
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+Output target/links index-1:
+Target node ID: 98
+Target payload: 1
+Number of dependant: 3
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 90
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 92
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+	Dependant index-2
+	Dependant node ID: 89
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x401854
+
+
+============================================
+
+====================
+Report on node-94
+-------------------
+For target-97:
+	Received packets from node-88 = 0 out of 1
+	Received packets from node-91 = 0 out of 1
+	Received packets from node-93 = 0 out of 1
+	Total generated packets = 0
+For target-98:
+	Received packets from node-90 = 0 out of 1
+	Received packets from node-92 = 0 out of 1
+	Received packets from node-89 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,5,0 > sp 10 6
+10.2.225.97:10,6,0 > iobuf 1
+Chip<10,6> receives TGPKT_PING from port-7
+Node-95 on <10,6>
+
+==================================================
+My TGnodeID = 95
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 97
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 88
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-95
+-------------------
+For target-97:
+	Received packets from node-88 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,6,0 > sp 10 7
+10.2.225.97:10,7,0 > iobuf 1
+Chip<10,7> receives TGPKT_PING from port-7
+Node-96 on <10,7>
+
+==================================================
+My TGnodeID = 96
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 97
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 88
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-96
+-------------------
+For target-97:
+	Received packets from node-88 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,7,0 > sp 10 8
+10.2.225.97:10,8,0 > iobuf 1
+Chip<10,8> receives TGPKT_PING from port-7
+Node-97 on <10,8>
+
+==================================================
+My TGnodeID = 97
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 100
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 94
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 96
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+==================================================
+My TGnodeID = 97
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 100
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 94
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 96
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+Output target/links index-1:
+Target node ID: 101
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 97
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 100
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 94
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 96
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+Output target/links index-1:
+Target node ID: 101
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 102
+Target payload: 1
+Number of dependant: 2
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 94
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+	Dependant index-1
+	Dependant node ID: 95
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402704
+
+
+============================================
+
+====================
+Report on node-97
+-------------------
+For target-100:
+	Received packets from node-94 = 0 out of 1
+	Received packets from node-95 = 0 out of 1
+	Received packets from node-96 = 0 out of 1
+	Total generated packets = 0
+For target-101:
+	Received packets from node-95 = 0 out of 1
+	Total generated packets = 0
+For target-102:
+	Received packets from node-94 = 0 out of 1
+	Received packets from node-95 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,8,0 > sp 10 9
+10.2.225.97:10,9,0 > iobuf 1
+Chip<10,9> receives TGPKT_PING from port-7
+Node-98 on <10,9>
+
+==================================================
+My TGnodeID = 98
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 99
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 94
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-98
+-------------------
+For target-99:
+	Received packets from node-94 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,9,0 > sp 10 10
+10.2.225.97:10,10,0 > iobuf 1
+Chip<10,10> receives TGPKT_PING from port-7
+Node-99 on <10,10>
+
+==================================================
+My TGnodeID = 99
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 103
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 98
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-99
+-------------------
+For target-103:
+	Received packets from node-98 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,10,0 > sp 10 11
+10.2.225.97:10,11,0 > iobuf 1
+Chip<10,11> receives TGPKT_PING from port-7
+Node-100 on <10,11>
+
+==================================================
+My TGnodeID = 100
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 103
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 97
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-100
+-------------------
+For target-103:
+	Received packets from node-97 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,11,0 > sp 10 12
+10.2.225.97:10,12,0 > iobuf 1
+Chip<10,12> receives TGPKT_PING from port-7
+Node-101 on <10,12>
+
+==================================================
+My TGnodeID = 101
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 103
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 97
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-101
+-------------------
+For target-103:
+	Received packets from node-97 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,12,0 > sp 10 13
+10.2.225.97:10,13,0 > iobuf 1
+Chip<10,13> receives TGPKT_PING from port-7
+Node-102 on <10,13>
+
+==================================================
+My TGnodeID = 102
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 103
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 97
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-102
+-------------------
+For target-103:
+	Received packets from node-97 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,13,0 > sp 10 14
+10.2.225.97:10,14,0 > iobuf 1
+Chip<10,14> receives TGPKT_PING from port-7
+Node-103 on <10,14>
+
+==================================================
+My TGnodeID = 103
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 104
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 103
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 104
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 105
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 100
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+============================================
+
+==================================================
+My TGnodeID = 103
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 104
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 105
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 100
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+Output target/links index-2:
+Target node ID: 106
+Target payload: 1
+Number of dependant: 3
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 99
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+	Dependant index-1
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402704
+
+	Dependant index-2
+	Dependant node ID: 101
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4028a0
+
+
+============================================
+
+==================================================
+My TGnodeID = 103
+-----------------------------------
+Number of output targets = 4
+
+Output target/links index-0:
+Target node ID: 104
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 105
+Target payload: 1
+Number of dependant: 2
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 100
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+	Dependant index-1
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4016b8
+
+
+Output target/links index-2:
+Target node ID: 106
+Target payload: 1
+Number of dependant: 3
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 99
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+	Dependant index-1
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402704
+
+	Dependant index-2
+	Dependant node ID: 101
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4028a0
+
+
+Output target/links index-3:
+Target node ID: 107
+Target payload: 1
+Number of dependant: 1
+Data location: 0x403580
+Dependants:
+	Dependant index-0
+	Dependant node ID: 102
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4035b4
+
+
+============================================
+
+====================
+Report on node-103
+-------------------
+For target-104:
+	Received packets from node-102 = 0 out of 1
+	Total generated packets = 0
+For target-105:
+	Received packets from node-100 = 0 out of 1
+	Received packets from node-102 = 0 out of 1
+	Total generated packets = 0
+For target-106:
+	Received packets from node-99 = 0 out of 1
+	Received packets from node-102 = 0 out of 1
+	Received packets from node-101 = 0 out of 1
+	Total generated packets = 0
+For target-107:
+	Received packets from node-102 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,14,0 > sp 10 15
+10.2.225.97:10,15,0 > iobuf 1
+Chip<10,15> receives TGPKT_PING from port-7
+Node-104 on <10,15>
+
+==================================================
+My TGnodeID = 104
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 109
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 103
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-104
+-------------------
+For target-109:
+	Received packets from node-103 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:10,15,0 > sp 11 4
+10.2.225.97:11,4,0 > iobuf 1
+Chip<11,4> receives TGPKT_PING from port-7
+Node-105 on <11,4>
+
+==================================================
+My TGnodeID = 105
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 109
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 103
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-105
+-------------------
+For target-109:
+	Received packets from node-103 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,4,0 > sp 11 5
+10.2.225.97:11,5,0 > iobuf 1
+Chip<11,5> receives TGPKT_PING from port-7
+Node-106 on <11,5>
+
+==================================================
+My TGnodeID = 106
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 108
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 103
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-106
+-------------------
+For target-108:
+	Received packets from node-103 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,5,0 > sp 11 6
+10.2.225.97:11,6,0 > iobuf 1
+Chip<11,6> receives TGPKT_PING from port-7
+Node-107 on <11,6>
+
+==================================================
+My TGnodeID = 107
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 109
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 103
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-107
+-------------------
+For target-109:
+	Received packets from node-103 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,6,0 > sp 11 7
+10.2.225.97:11,7,0 > iobuf 1
+Chip<11,7> receives TGPKT_PING from port-7
+Node-108 on <11,7>
+
+==================================================
+My TGnodeID = 108
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 110
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 108
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 110
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 111
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+==================================================
+My TGnodeID = 108
+-----------------------------------
+Number of output targets = 3
+
+Output target/links index-0:
+Target node ID: 110
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 111
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+Output target/links index-2:
+Target node ID: 112
+Target payload: 1
+Number of dependant: 1
+Data location: 0x402534
+Dependants:
+	Dependant index-0
+	Dependant node ID: 106
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x402568
+
+
+============================================
+
+====================
+Report on node-108
+-------------------
+For target-110:
+	Received packets from node-106 = 0 out of 1
+	Total generated packets = 0
+For target-111:
+	Received packets from node-106 = 0 out of 1
+	Total generated packets = 0
+For target-112:
+	Received packets from node-106 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,7,0 > sp 11 8
+10.2.225.97:11,8,0 > iobuf 1
+Chip<11,8> receives TGPKT_PING from port-7
+Node-109 on <11,8>
+
+==================================================
+My TGnodeID = 109
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 110
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 104
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 105
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 107
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-109
+-------------------
+For target-110:
+	Received packets from node-104 = 0 out of 1
+	Received packets from node-105 = 0 out of 1
+	Received packets from node-107 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,8,0 > sp 11 9
+10.2.225.97:11,9,0 > iobuf 1
+Chip<11,9> receives TGPKT_PING from port-7
+Node-110 on <11,9>
+
+==================================================
+My TGnodeID = 110
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 115
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 108
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 109
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-110
+-------------------
+For target-115:
+	Received packets from node-108 = 0 out of 1
+	Received packets from node-109 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,9,0 > sp 11 10
+10.2.225.97:11,10,0 > iobuf 1
+Chip<11,10> receives TGPKT_PING from port-7
+Node-111 on <11,10>
+
+==================================================
+My TGnodeID = 111
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 113
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 108
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+==================================================
+My TGnodeID = 111
+-----------------------------------
+Number of output targets = 2
+
+Output target/links index-0:
+Target node ID: 113
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 108
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+Output target/links index-1:
+Target node ID: 114
+Target payload: 1
+Number of dependant: 1
+Data location: 0x4014e8
+Dependants:
+	Dependant index-0
+	Dependant node ID: 108
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40151c
+
+
+============================================
+
+====================
+Report on node-111
+-------------------
+For target-113:
+	Received packets from node-108 = 0 out of 1
+	Total generated packets = 0
+For target-114:
+	Received packets from node-108 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,10,0 > sp 11 11
+10.2.225.97:11,11,0 > iobuf 1
+Chip<11,11> receives TGPKT_PING from port-7
+Node-112 on <11,11>
+
+==================================================
+My TGnodeID = 112
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 118
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 108
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-112
+-------------------
+For target-118:
+	Received packets from node-108 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,11,0 > sp 11 12
+10.2.225.97:11,12,0 > iobuf 1
+Chip<11,12> receives TGPKT_PING from port-7
+Node-113 on <11,12>
+
+==================================================
+My TGnodeID = 113
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 117
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 111
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-113
+-------------------
+For target-117:
+	Received packets from node-111 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,12,0 > sp 11 13
+10.2.225.97:11,13,0 > iobuf 1
+Chip<11,13> receives TGPKT_PING from port-7
+Node-114 on <11,13>
+
+==================================================
+My TGnodeID = 114
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 116
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 111
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-114
+-------------------
+For target-116:
+	Received packets from node-111 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,13,0 > sp 11 14
+10.2.225.97:11,14,0 > iobuf 1
+Chip<11,14> receives TGPKT_PING from port-7
+Node-115 on <11,14>
+
+==================================================
+My TGnodeID = 115
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 116
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 110
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-115
+-------------------
+For target-116:
+	Received packets from node-110 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,14,0 > sp 11 15
+10.2.225.97:11,15,0 > iobuf 1
+Chip<11,15> receives TGPKT_PING from port-7
+Node-116 on <11,15>
+
+==================================================
+My TGnodeID = 116
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 119
+Target payload: 1
+Number of dependant: 2
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 114
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 115
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+
+============================================
+
+====================
+Report on node-116
+-------------------
+For target-119:
+	Received packets from node-114 = 0 out of 1
+	Received packets from node-115 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:11,15,0 > sp 12 4
+10.2.225.97:12,4,0 > iobuf 1
+Chip<12,4> receives TGPKT_PING from port-7
+Node-117 on <12,4>
+
+==================================================
+My TGnodeID = 117
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 119
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 113
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-117
+-------------------
+For target-119:
+	Received packets from node-113 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:12,4,0 > sp 12 5
+10.2.225.97:12,5,0 > iobuf 1
+Chip<12,5> receives TGPKT_PING from port-7
+Node-118 on <12,5>
+
+==================================================
+My TGnodeID = 118
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 119
+Target payload: 1
+Number of dependant: 1
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 112
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+
+============================================
+
+====================
+Report on node-118
+-------------------
+For target-119:
+	Received packets from node-112 = 0 out of 1
+	Total generated packets = 0
+10.2.225.97:12,5,0 > sp 12 6
+10.2.225.97:12,6,0 > iobuf 1
+Chip<12,6> receives TGPKT_PING from port-7
+Node-119 on <12,6>
+
+==================================================
+My TGnodeID = 119
+-----------------------------------
+Number of output targets = 1
+
+Output target/links index-0:
+Target node ID: 65535
+Target payload: 1
+Number of dependant: 3
+Data location: 0x40049c
+Dependants:
+	Dependant index-0
+	Dependant node ID: 117
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x4004d0
+
+	Dependant index-1
+	Dependant node ID: 116
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x40066c
+
+	Dependant index-2
+	Dependant node ID: 118
+	Dependant trigger amount: 1
+	Dependant current #trigger: 0
+Data location: 0x400808
+
+
+============================================
+
+====================
+Report on node-119
+-------------------
+For target-65535:
+	Received packets from node-117 = 0 out of 1
+	Received packets from node-116 = 0 out of 1
+	Received packets from node-118 = 0 out of 1
+	Total generated packets = 0

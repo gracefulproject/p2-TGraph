@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# Note: supply $2 with hexa or quad
+
+if [ $1 == "" ]; then
+	echo "[s] Which model?"
+	exit 1
+fi
+
+up=${1^^}
+if [ $up == "0" ]; then
+	yb="lihat_dump_pp_dense.ybug"
+elif [ $up == "A" ]; then
+	yb="lihat_dump_pp_fig_a.ybug"
+elif [ $up == "B" ]; then
+	yb="lihat_dump_pp_fig_b.ybug"
+elif [ $up == "C" ]; then
+	yb="lihat_dump_pp_fig_c.ybug"
+elif [ $up == "D" ]; then
+	yb="lihat_dump_pp_improved.ybug"
+else
+	echo "[s] Unknown model" $1
+	exit 1
+fi
+ybug 10.2.225.9 << EOF
+@ $yb
+EOF
+

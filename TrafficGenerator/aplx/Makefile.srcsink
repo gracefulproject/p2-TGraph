@@ -1,0 +1,3 @@
+APP := srcsink
+OBJECTS = $(APP).o helper.o
+include $(SPINN_DIRS)/make/app.make

@@ -1,0 +1,42 @@
+#!/bin/bash
+if [ $1 == "" ]; then
+	echo "[look_dumped_pp] Which model?"
+	exit 1
+fi
+up=${1^^}
+if [ $up == "0" ]; then
+	yout="dumped_pp_dense_"$2".res"
+elif [ $up == "A" ]; then
+	yout="dumped_pp_fig_a_"$2".res"
+elif [ $up == "B" ]; then
+	yout="dumped_pp_fig_b_"$2".res"
+elif [ $up == "C" ]; then
+	yout="dumped_pp_fig_c_"$2".res"
+elif [ $up == "D" ]; then
+	yout="dumped_pp_improved_"$2".res"
+else
+	echo "[look_dumped_pp] Unknown model" $1
+	exit 1
+fi
+
+echo "Sending to spinnaker..."
+./s $1 $2 > $yout
+
+echo "Processing result..."
+#then process with sed
+sed -i '/Loc/d' $yout
+sed -i '/Ext/d' $yout
+sed -i '/Cntr/d' $yout
+sed -i '/Ctrl/d' $yout
+sed -i '/Err/d' $yout
+sed -i '/sp/d' $yout
+sed -i '/rtr_diag/d' $yout
+sed -i '/FR/d' $yout
+sed -i '/MC/d' $yout
+sed -i '/NN/d' $yout
+sed -i '/>/d' $yout
+sed -i '/CRC/d' $yout
+sed -i '/ybug/d' $yout
+sed -i '/^\s*$/d' $yout
+sed -i 's/Dump PP:   //g' $yout
+

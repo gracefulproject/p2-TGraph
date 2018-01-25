@@ -1,0 +1,244 @@
+#!/bin/bash
+ybug 10.2.225.97 << EOF
+sp 0 1
+iobuf 1
+sp 0 2
+iobuf 1
+sp 0 3
+iobuf 1
+sp 1 0
+iobuf 1
+sp 1 1
+iobuf 1
+sp 1 2
+iobuf 1
+sp 1 3
+iobuf 1
+sp 1 4
+iobuf 1
+sp 2 0
+iobuf 1
+sp 2 1
+iobuf 1
+sp 2 2
+iobuf 1
+sp 2 3
+iobuf 1
+sp 2 4
+iobuf 1
+sp 2 5
+iobuf 1
+sp 3 0
+iobuf 1
+sp 3 1
+iobuf 1
+sp 3 2
+iobuf 1
+sp 3 3
+iobuf 1
+sp 3 4
+iobuf 1
+sp 3 5
+iobuf 1
+sp 3 6
+iobuf 1
+sp 4 0
+iobuf 1
+sp 4 1
+iobuf 1
+sp 4 2
+iobuf 1
+sp 4 3
+iobuf 1
+sp 4 4
+iobuf 1
+sp 4 5
+iobuf 1
+sp 4 6
+iobuf 1
+sp 4 7
+iobuf 1
+sp 4 8
+iobuf 1
+sp 4 9
+iobuf 1
+sp 4 10
+iobuf 1
+sp 4 11
+iobuf 1
+sp 5 1
+iobuf 1
+sp 5 2
+iobuf 1
+sp 5 3
+iobuf 1
+sp 5 4
+iobuf 1
+sp 5 5
+iobuf 1
+sp 5 6
+iobuf 1
+sp 5 7
+iobuf 1
+sp 5 8
+iobuf 1
+sp 5 9
+iobuf 1
+sp 5 10
+iobuf 1
+sp 5 11
+iobuf 1
+sp 5 12
+iobuf 1
+sp 6 2
+iobuf 1
+sp 6 3
+iobuf 1
+sp 6 4
+iobuf 1
+sp 6 5
+iobuf 1
+sp 6 6
+iobuf 1
+sp 6 7
+iobuf 1
+sp 6 8
+iobuf 1
+sp 6 9
+iobuf 1
+sp 6 10
+iobuf 1
+sp 6 11
+iobuf 1
+sp 6 12
+iobuf 1
+sp 6 13
+iobuf 1
+sp 7 3
+iobuf 1
+sp 7 4
+iobuf 1
+sp 7 5
+iobuf 1
+sp 7 6
+iobuf 1
+sp 7 7
+iobuf 1
+sp 7 8
+iobuf 1
+sp 7 9
+iobuf 1
+sp 7 10
+iobuf 1
+sp 7 11
+iobuf 1
+sp 7 12
+iobuf 1
+sp 7 13
+iobuf 1
+sp 7 14
+iobuf 1
+sp 8 4
+iobuf 1
+sp 8 5
+iobuf 1
+sp 8 6
+iobuf 1
+sp 8 7
+iobuf 1
+sp 8 8
+iobuf 1
+sp 8 9
+iobuf 1
+sp 8 10
+iobuf 1
+sp 8 11
+iobuf 1
+sp 8 12
+iobuf 1
+sp 8 13
+iobuf 1
+sp 8 14
+iobuf 1
+sp 8 15
+iobuf 1
+sp 9 4
+iobuf 1
+sp 9 5
+iobuf 1
+sp 9 6
+iobuf 1
+sp 9 7
+iobuf 1
+sp 9 8
+iobuf 1
+sp 9 9
+iobuf 1
+sp 9 10
+iobuf 1
+sp 9 11
+iobuf 1
+sp 9 12
+iobuf 1
+sp 9 13
+iobuf 1
+sp 9 14
+iobuf 1
+sp 9 15
+iobuf 1
+sp 10 4
+iobuf 1
+sp 10 5
+iobuf 1
+sp 10 6
+iobuf 1
+sp 10 7
+iobuf 1
+sp 10 8
+iobuf 1
+sp 10 9
+iobuf 1
+sp 10 10
+iobuf 1
+sp 10 11
+iobuf 1
+sp 10 12
+iobuf 1
+sp 10 13
+iobuf 1
+sp 10 14
+iobuf 1
+sp 10 15
+iobuf 1
+sp 11 4
+iobuf 1
+sp 11 5
+iobuf 1
+sp 11 6
+iobuf 1
+sp 11 7
+iobuf 1
+sp 11 8
+iobuf 1
+sp 11 9
+iobuf 1
+sp 11 10
+iobuf 1
+sp 11 11
+iobuf 1
+sp 11 12
+iobuf 1
+sp 11 13
+iobuf 1
+sp 11 14
+iobuf 1
+sp 11 15
+iobuf 1
+sp 12 4
+iobuf 1
+sp 12 5
+iobuf 1
+sp 12 6
+iobuf 1
+EOF
+

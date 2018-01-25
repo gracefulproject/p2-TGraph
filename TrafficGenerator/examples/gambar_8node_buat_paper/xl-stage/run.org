@@ -1,0 +1,29 @@
+#!/bin/bash
+# This is semi-automatic graph generation script based on the original graph_gen.m
+# from York.
+
+echo -n "Have you specified number of nodes and graphs in the graph_gen.m [Y/n]? "
+read -n 1 tanya
+echo 
+
+upTanya=${tanya^^} 
+
+if [ "$upTanya" == "N" ]; then
+   echo "No? Then I'll stop!"
+   #exit 1
+elif [ "$upTanya" != "Y" ]; then
+   echo "I don't understand! So, I quit!"
+else
+   echo "OK, let's generate..."
+   rm -rf graphs
+   mkdir -p graphs
+   octave graph_gen.m
+   cp -rf graphs Archive
+   cp -rf graphs Traffic
+   python graphGeneratorXML.py
+   echo "Clean up temporary folder..."
+   cp -rf Traffic/* graphs/
+   rm -rf Archive
+   rm -rf Traffic
+   echo "done! Look the result(s) in the graphs folder!"
+fi

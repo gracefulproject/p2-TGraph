@@ -1,0 +1,11 @@
+#!/bin/bash
+cp -rf graphs Archive
+cp -rf graphs Traffic
+mkdir -p uom_graphs
+python graphGeneratorXML.py &> /dev/null
+cp -rf Traffic/* uom_graphs/
+rm -rf uom_graphs/*.eps uom_graphs/*.gv uom_graphs/*.h uom_graphs/*.data
+rm -rf Archive
+rm -rf Traffic
+echo "done! Look the result(s) in the uom_graphs folder!"
+

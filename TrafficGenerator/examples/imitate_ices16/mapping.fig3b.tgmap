@@ -1,0 +1,30 @@
+#This maps 9-nodes graph into spiNNaker machine with close adjacency
+#A line beginning with # is a comment line
+#65535 is the ID for SOURCE/SINK node
+(0,0)=65535
+(4,7)=0
+(4,6)=1
+(4,8)=2
+(5,8)=3
+(5,9)=4
+(6,8)=6
+(6,9)=8
+(5,6)=9
+(6,6)=12
+(9,6)=18
+(9,5)=23
+#the followings are different
+(7,8)=5
+(6,7)=7
+(8,8)=10
+(7,9)=11
+(7,6)=13
+(5,5)=14
+(8,7)=15
+(8,6)=16
+(6,5)=17
+(7,7)=19
+(8,4)=20
+(8,5)=21
+(7,5)=22
+(7,4)=24
